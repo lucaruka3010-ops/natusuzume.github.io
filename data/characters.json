@@ -1,0 +1,26 @@
+[
+  {
+    "name": "日向 ミカ",
+    "subtitle": "森の見張り / 弓使い",
+    "tags": [
+      "森",
+      "弓",
+      "観察者"
+    ],
+    "image": "/assets/img/placeholder.svg",
+    "url": "/characters/mika.html",
+    "updatedAt": "2025-08-20"
+  },
+  {
+    "name": "リコ",
+    "subtitle": "旅商人 / 情報屋",
+    "tags": [
+      "商人",
+      "街道",
+      "交渉"
+    ],
+    "image": "/assets/img/placeholder.svg",
+    "url": "/characters/riko.html",
+    "updatedAt": "2025-08-18"
+  }
+]

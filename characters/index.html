@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>創作アーカイブ</title>
+  <meta name="description" content="創作設定・キャラ紹介の個人アーカイブ" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/"><span class="emoji">🌲</span> 創作アーカイブ</a>
+  <nav class="nav">
+    <a href="/world.html">世界観</a>
+    <a href="/characters/">キャラクター</a>
+    <a href="/timeline.html">年表</a>
+    <a href="/notes.html">メモ</a>
+  </nav>
+</header>
+<main class="container">
+<section class="card">
+  <div class="list-header">
+    <h1>キャラクター一覧</h1>
+    <div class="controls">
+      <input id="search" type="search" placeholder="名前・タグで検索…" />
+      <select id="sort">
+        <option value="name-asc">名前 A→Z</option>
+        <option value="name-desc">名前 Z→A</option>
+        <option value="updated-desc">更新が新しい順</option>
+        <option value="updated-asc">更新が古い順</option>
+      </select>
+    </div>
+  </div>
+  <div id="char-list" class="card-grid"></div>
+</section>
+</main>
+<footer class="site-footer">
+  <p>© <span id="year"></span> あなたの名前</p>
+</footer>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
